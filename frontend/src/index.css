@@ -1,4 +1,39 @@
 .todos{
     display: flex;
+    align-items: center;
     gap: 20px;
+}
+.todo-delete-button{
+    height: 3vh;
+}
+.todo-button{
+    background-color: rgb(123, 123, 233);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.add{
+    display: flex;
+    gap: 20px;
+    height: 5vh;
+    margin-bottom: 5vh;
+}
+.add input{
+    padding: 10px;
+    border-radius: 10px ;
+    border: 2px solid blueviolet;
+    outline:  blueviolet;
+}
+.add button{
+    padding: 10px;
+}
+.App{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width:60vw;
+    margin: 20vh auto;
+    align-items: center;
+    border: 2px solid blueviolet;
+    border-radius: 20px;
 }
